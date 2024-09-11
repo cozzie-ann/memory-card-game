@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="difficulty-container">
+        <h2>Select Difficulty</h2>
+        <label>
+            <input type="radio" name="difficulty" value="Easy" checked> Easy
+        </label>
+        <label>
+            <input type="radio" name="difficulty" value="Difficult"> Difficult
+        </label>
+        <button id="start-btn">Start Game</button>
+    </div>
+    <div id="game-container" class="hidden">
+        <div id="timer">Time: <span id="timer-value">0</span>s</div>
+        <div id="game-board"></div>
+    </div>
+    <div id="congratulations" class="hidden">
+        <p>Congratulations! You completed the game in <span id="time-taken"></span> seconds.</p>
+        <button id="play-again">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
