@@ -1,66 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: rgb(134, 110, 118);
+    font-family: Arial, sans-serif; /* Use Arial font for text */
+    display: flex; /* Arrange items in a line or column */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Make the body fill the full height of the screen */
+    margin: 0; /* Remove any default margin */
+    background-color: rgb(134, 110, 118); /* Set the background color */
 }
 
 #difficulty-container {
-    text-align: center;
-    margin: 20px;
+    text-align: center; /* Center text inside this container */
+    margin: 20px; /* Add space around this container */
 }
 
 #difficulty-container label {
-    margin: 0 10px;
+    margin: 0 10px; /* Add space on the left and right of labels */
 }
 
 #game-container {
-    text-align: center;
-    margin: 20px;
+    text-align: center; /* Center text inside the game container */
+    margin: 20px; /* Add space around the game container */
 }
 
 #game-board {
-    display: grid;
-    gap: 10px;
-    margin: 20px auto;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    display: grid; /* Use a grid layout for the game board */
+    gap: 10px; /* Space between grid items */
+    margin: 20px auto; /* Center the game board and add space around it */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Set columns to fill the space */
 }
 
 .card {
-    width: 100px;
-    height: 100px;
-    background-color: #ccc;
-    border-radius: 10px;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
+    width: 100px; /* Set the card width */
+    height: 100px; /* Set the card height */
+    background-color: #ccc; /* Set a light gray color for cards */
+    border-radius: 10px; /* Round the corners of cards */
+    position: relative; /* Position cards relative to their container */
+    cursor: pointer; /* Change cursor to pointer when hovering over cards */
+    overflow: hidden; /* Hide anything that overflows the card */
 }
 
 .card img {
-    width: 100%;
-    height: 100%;
-    display: none;
+    width: 100%; /* Make images fill the card width */
+    height: 100%; /* Make images fill the card height */
+    display: none; /* Hide images by default */
 }
 
 .card.flipped img {
-    display: block;
+    display: block; /* Show the image when the card is flipped */
 }
 
 #congratulations {
-    text-align: center;
-    padding: 20px;
-    border: 2px solid #000;
-    background-color: #fff;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
+    text-align: center; /* Center text in the congratulations box */
+    padding: 20px; /* Add space inside the box */
+    border: 2px solid #000; /* Add a black border around the box */
+    background-color: #fff; /* Set the background color */
+    position: fixed; /* Keep the box in a fixed position */
+    top: 50%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to truly center it */
+    border-radius: 10px; /
 }
 
 .hidden {
-    display: none;
+    display: none; /* Hide elements with this class */
 }

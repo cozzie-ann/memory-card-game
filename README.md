@@ -1,7 +1,7 @@
 
 # Memory Card Game
 
-A simple memory card game where players flip cards to find matching pairs. The game includes multiple difficulty levels and a timer to track the duration of gameplay.
+A simple memory card game where players flip cards to find matching pairs. The game includes multiple a timer to track the duration of gameplay.
 
 ## Features
 
@@ -20,19 +20,14 @@ A simple memory card game where players flip cards to find matching pairs. The g
 
 To set up and run the memory card game locally, follow these steps:
 
-1. **Clone the Repository**:
-
-   ```sh
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
+1. **Clone the Repository**
 
 2. **Ensure Proper Directory Structure**:
 
    The directory structure should look like this:
    
    ```
-   /dino-game
+   /memory-game
    ├── images/
    │   ├── ace.jpg
    │   ├── doffy.jpg
@@ -46,8 +41,6 @@ To set up and run the memory card game locally, follow these steps:
    ├── styles.css
    └── script.js
    ```
-
-   Make sure all images are placed in the `images` folder.
 
 3. **Open the Game in a Browser**:
 
@@ -83,7 +76,3 @@ To set up and run the memory card game locally, follow these steps:
 
 - **Images Not Displaying**: Ensure the image paths and filenames are correct. Check if the correct file extensions (`.jpg`, `.jpeg`, `.png`) are used.
 - **Game Not Starting**: Verify that all elements are properly connected and IDs match those referenced in `script.js`.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE] file for details

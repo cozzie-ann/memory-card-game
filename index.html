@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Memory Game</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Set character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Make the page responsive -->
+    <title>Card Memory Game</title> <!-- Title of the game displayed in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file for styling -->
 </head>
 <body>
-    <div id="difficulty-container">
-        <h2>Select Difficulty</h2>
+    <div id="difficulty-container"> <!-- Container for difficulty selection -->
+        <h2>Select Difficulty</h2> <!-- Heading for difficulty options -->
         <label>
-            <input type="radio" name="difficulty" value="Easy" checked> Easy
+            <input type="radio" name="difficulty" value="Easy" checked> Easy <!-- Radio button for Easy difficulty -->
         </label>
         <label>
-            <input type="radio" name="difficulty" value="Difficult"> Difficult
+            <input type="radio" name="difficulty" value="Difficult"> Difficult <!-- Radio button for Difficult difficulty -->
         </label>
-        <button id="start-btn">Start Game</button>
+        <button id="start-btn">Start Game</button> <!-- Button to start the game -->
     </div>
-    <div id="game-container" class="hidden">
-        <div id="timer">Time: <span id="timer-value">0</span>s</div>
-        <div id="game-board"></div>
+    <div id="game-container" class="hidden"> <!-- Container for the game board, initially hidden -->
+        <div id="timer">Time: <span id="timer-value">0</span>s</div> <!-- Timer display -->
+        <div id="game-board"></div> <!-- Area for the game cards to be displayed -->
     </div>
-    <div id="congratulations" class="hidden">
-        <p>Congratulations! You completed the game in <span id="time-taken"></span> seconds.</p>
-        <button id="play-again">Play Again</button>
+    <div id="congratulations" class="hidden"> <!-- Container for congratulations message, initially hidden -->
+        <p>Congratulations! You completed the game in <span id="time-taken"></span> seconds.</p> <!-- Display time taken -->
+        <button id="play-again">Play Again</button> <!-- Button to restart the game -->
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> 
 </body>
 </html>
